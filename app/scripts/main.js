@@ -16,3 +16,4 @@ const modalWindow = document.getElementById('modal-form');
 openModalBtn.onclick = () =>  modalWindow.style.display = "block";
 
 closeModalBtn.onclick = () => modalWindow.style.display = "none";
+//# sourceMappingURL=main.js.map

@@ -1,0 +1,86 @@
+.btn,
+.btn-fill,
+.btn-raised {
+    background: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: $font-light;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 140%;
+    margin: 4px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+        box-shadow: 4px 4px 11px -5px rgba(0,0,0,0.75);
+    }
+
+    @media screen and (max-width: 576px) {
+        font-size: 14px;
+    }
+}
+
+.btn {
+    border: 2px solid $btn-border-color;
+    display: inline-block;
+    font-weight: bold;
+    padding: 12px 58px;
+
+    @media screen and (max-width: 576px) {
+        padding: 8px 38px;
+    }
+
+    @media screen and (max-width: 436px) {
+        padding: 8px 18px;
+        margin: 0 4px;
+    }
+}
+.btn,
+.btn-raised {
+    border-radius: 6px;
+}
+
+.btn-fill,
+.btn-raised {
+    border: none;
+}
+
+.btn-raised {
+    box-shadow: 2px 4px 5px 0px rgba(77,198,228,1);
+    padding: 12px 58px;
+    
+    &:hover {
+        box-shadow: 4px 6px 5px 0px rgba(77,198,228,1);
+    }
+
+}
+
+.btn-primary {
+    background: $btn-primary-color;
+}
+
+.btn-secondary {
+    background: $btn-secondary-color;
+}
+
+.btn-m {
+    font-size: 38px;
+    line-height: inherit;
+    padding: 16px 22px;
+}
+
+.btn-l {
+    font-size: 48px;
+    line-height: inherit;
+    padding: 26px 32px;
+}
+
+.btn-primary.active {
+    background: $btn-primary-active-color;
+}

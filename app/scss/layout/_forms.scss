@@ -1,0 +1,16 @@
+input, 
+textarea {
+    box-sizing: border-box;
+    color: $font-dark;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    min-width: 90%;
+}
+
+textarea {
+    height: 110px;
+    resize: none;
+}

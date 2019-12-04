@@ -1,0 +1,56 @@
+@import '../abstracts/variables';
+
+//Roboto font
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+//Lato font
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+// Rubik  font
+@import url('https://fonts.googleapis.com/css?family=Rubik:500&display=swap');
+
+//Saira Extra Condensed
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
+
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    @media screen and (max-width: 576px) {
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+
+h4 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 576px) {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    @media screen and (max-width: 576px) {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+}

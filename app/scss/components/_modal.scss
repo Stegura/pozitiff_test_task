@@ -1,0 +1,36 @@
+.modal {
+    background: $modal-bg;
+    width: 68%;
+    padding: 26px 10px;
+    display: none;
+
+    .modal-header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        span {
+            color: $font-light;
+            font-family: 'Saira Extra Condensed', sans-serif;
+            font-size: 38px;
+            margin: 0;
+            text-align: left;
+        }
+    }
+ 
+    @media screen and (max-width: 960px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 576px) {
+        padding: 16px 0;
+    }
+}

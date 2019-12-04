@@ -1,0 +1,24 @@
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 130px 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 800px) {
+        justify-content: center;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+.block-50 {
+    flex-basis: 50%;
+
+    @media screen and (max-width: 800px) {
+        flex-basis: 80%;
+    }
+}
